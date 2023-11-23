@@ -8,20 +8,18 @@ Modern mobile applications often require robust security measures to safeguard u
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- #### Clone the project 
+    - git clone https://github.com/budescode/automatic-logout-flutter.git
 
-A few resources to get you started if this is your first Flutter project:
+- #### Navigate to the Project Directory
+    - cd automatic-logout-flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- #### Run the app
+    - flutter run
 
 ## Implementation Steps
 - Step 1: Wrap your MaterialApp with a GestureDetector to capture user interactions
 - Step 2: Customize Timeout Duration and handle logic when time is completed like clearing local storage or cache etc.
 
 ## Example
-Check out the provided example for a complete implementation showcasing the automatic logout feature.
+Check out the provided [example](https://github.com/budescode/automatic-logout-flutter/blob/main/lib/main.dart) for a complete implementation showcasing the automatic logout feature.
